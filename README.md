@@ -35,7 +35,10 @@ This code is provided as a experimental implementation for testing purposes and 
 	```
 	git clone --recursive git://github.com/encryptogroup/PSI
 	```
-
+Enter the directory: 'cd PSI/src/externals/Miracl'
+	```
+	git clone --recursive git://github.com/miracl/MIRACL
+	```
 2. Enter the Framework directory: `cd PSI/`
 
 3. Call `make` in the root directory to compile all dependencies, tests, and examples and create the executables: **psi.exe** (used for benchmarking) and **demo.exe** (a small demonstrator for intersecting email addresses).
